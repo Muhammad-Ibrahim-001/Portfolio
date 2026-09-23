@@ -1,0 +1,53 @@
+
+Muhammad Ibrahim
++92-316-4412588
+muhammadibrahim00187@gmail.com
+linkedin.com/in/muhammad-ibrahim-1b0a84240
+github.com/Muhammad-Ibrahim-001
+Lahore, Pakistan
+Summary
+Software and systems engineering student at FAST NUCES Lahore with industry internship experience at Siemens in hypervisor integration, hardware-in-loop (HIL) systems, embedded Linux, virtualization, and remote device management. Proficient in C, C++, Python, and JavaScript with hands-on experience in low-level systems programming, Intel Active Management Technology (AMT), WebSocket-based control systems, and machine learning. Experienced with Linux administration, shell scripting, TCP/IP networking, REST API development, and object-oriented software design. Three-time Dean's List recipient (CGPA 3.37/4.00). 
+Experience
+Hypervisor and Systems Engineering Intern
+Siemens |  August 2026 - October 2026  |  Remote, Pakistan
+Integrated hypervisor technology into Siemens Industrial PCs (IPCs) on Linux-based embedded systems using Raspberry Pi, enabling hardware virtualization for industrial IoT environments.
+Developed a Hardware-in-Loop (HIL) system by configuring Raspberry Pi as a USB OTG device connected to the IPC, establishing direct hardware-level communication between the Pi and the industrial computer.
+Implemented full out-of-band IPC control using Intel Active Management Technology (AMT) via wsmancli in WSL, enabling remote power management, BIOS-level configuration, and hardware monitoring entirely through the IPC IP address with no OS-level dependency.
+Built a WebSocket-based three-tier remote control bridge: host laptop sends commands to Raspberry Pi, Pi executes AMT operations on the IPC, and real-time telemetry is streamed back to the laptop via WebSockets, giving engineers full remote hardware control from a single interface.
+Developed a browser extension enabling Siemens engineers to remotely access and manage hypervisors and industrial PCs, improving accessibility for distributed teams.
+Designed and implemented a hypervisor trace analytics pipeline to collect, parse, and analyze execution traces, performing frequency analysis, device-level attribution, and fatal error classification to surface actionable system health insights.
+Optimized trace collection system performance by 20% through UI/UX improvements and backend analytics enhancements; the tool is adopted into daily engineering workflows across the Siemens engineering team.
+Skills
+Languages: C, C++, Python, JavaScript, x86 Assembly (NASM), Scala, Bash Shell Scripting
+Systems and Networking: Hypervisor Technology, Virtualization, Hardware-in-Loop (HIL), Intel AMT, USB OTG, Embedded Linux, Linux Administration, Raspberry Pi, Bootloader Design, QEMU, BIOS Internals, GDT, IDT, WebSockets, TCP/IP Networking, Out-of-Band Management, WSL, Network Protocols
+Software and Backend: Object-Oriented Programming (OOP), Data Structures and Algorithms, SDLC, Agile Methodology, REST API Design, Node.js, SQL, Database Systems, Version Control, Code Review, Debugging
+Machine Learning and Tools: Scikit-learn, XGBoost, Pandas, NumPy, Plotly, Feature Engineering, Exploratory Data Analysis (EDA), Model Evaluation, Git, GitHub, GDB, Jupyter Notebook, VS Code
+Projects
+x86 Bare-Metal Bootloader and Kernel Bootstrap
+x86 Assembly (NASM), C, QEMU, Protected Mode, OS Internals, Systems Programming  |  2026
+Implemented a two-stage bootloader from scratch in x86 NASM assembly with no OS dependencies: Stage 1 (MBR) initializes the stack and loads Stage 2 from disk via BIOS INT 13h; Stage 2 configures the Global Descriptor Table (GDT), manipulates the CR0 protection bit, and transitions the CPU from 16-bit real mode to 32-bit protected mode.
+Bootstrapped a minimal C kernel by establishing the C runtime environment from assembly including stack setup and BSS zeroing, then handing off execution to kernel_main(); extending with VGA text-mode output, BIOS INT 15h memory map parsing (E820), and Interrupt Descriptor Table (IDT) initialization.
+Network Intrusion Detection System
+Python, Scikit-learn, XGBoost, Pandas, NumPy, EDA, Feature Engineering, Classification |  2025
+Built an end-to-end machine learning pipeline on the UNSW-NB15 dataset (257,000 records, 45 features) for binary and multi-class network intrusion detection and security threat classification.
+Engineered 64 features via label encoding and one-hot encoding; trained and benchmarked Random Forest (87.29% accuracy) and XGBoost (87.33% accuracy, 0.99 attack recall) classifiers across binary and multi-class scenarios.
+Extended pipeline to multi-class classification across 9 attack categories including DoS, Exploits, and Backdoor, achieving 82.72% accuracy; produced evaluation reports with precision, recall, and F1-score metrics per class.
+Facebook Social Network Simulation
+C++, Object-Oriented Programming, Inheritance, Polymorphism, Data Structures, File I/O  |  2025
+Designed and implemented a social media platform simulation in C++ using 9 interlinked classes demonstrating inheritance, polymorphism, encapsulation, and dynamic memory management with full Software Development Life Cycle (SDLC) applied.
+Implemented user timelines, home feed aggregation, post likes, comment system, reverse chronological sorting, and on-this-day memories feature with multi-file structured data loading and parsing.
+SocioServe - Community Marketplace Application
+JavaScript, Node.js, REST API, Backend Development, Full Stack Web Development |  April 2026 - May 2026
+Built a full-stack hyperlocal community marketplace enabling residents to discover and access nearby food vendors, grocery stores, barber shops, and local service providers within their residential society.
+Implemented REST API backend services for listing management, location-based search, and user interaction features using Node.js and JavaScript following REST API design best practices.
+Education
+Bachelor of Science in Data Science
+FAST NUCES - National University of Computer and Emerging Sciences, Lahore, Pakistan  |  August 2024 - August 2028 (Expected)
+CGPA: 3.37 / 4.00  |  4th Semester Completed
+Dean's List - Fall 2024 (Semester 1): SGPA 3.65  |  Dean's List - Fall 2025 (Semester 3): SGPA 3.55  |  Dean's List - Spring 2026 (Semester 4): SGPA 3.63
+Relevant Coursework: Data Structures and Algorithms, Operating Systems, Computer Organization and Assembly Language, Database Systems, Object-Oriented Programming (OOP), Probability and Statistics, Linear Algebra, Software Engineering, Discrete Structures, Introduction to Data Science, Advanced Statistics, Fundamentals of Software Engineering
+Awards and Activities
+Three-Time Dean's List Award - FAST NUCES Lahore - Awarded Fall 2024, Fall 2025, and Spring 2026 for maintaining Semester GPA above 3.50 out of 4.00.
+SOFTEC Programming Competition - Competed as part of a 3-member team in SOFTEC, one of Pakistan's largest annual university-level programming competitions, solving algorithmic and problem-solving challenges under time constraints.
+ACM Programming Competition - Participated as part of a 3-member team in ACM-style competitive programming, tackling data structures, algorithms, and computational problem-solving challenges under competitive conditions.
+Punjab College Chess Competition – Came first in chess competition in Punjab College.

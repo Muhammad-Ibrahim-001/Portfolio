@@ -1,0 +1,12 @@
+﻿Portfolio owner: Muhammad Ibrahim
+GitHub: https://github.com/Muhammad-Ibrahim-001
+LinkedIn: https://www.linkedin.com/in/muhammad-ibrahim-1b0a84240/
+Email: muhammadibrahim00187@gmail.com
+Resume files: Muhammad_Ibrahim_CV.pdf and Muhammad_Ibrahim_CV.docx
+Source roots: D:\Semester Projects and D:\Semester Work (Programming)
+
+Top-level project directories:
+Semester Projects: BattleShip Game; Bubble Shooter x86; Facebook-OOP; gradient field Ananlysis; Network Intrusion Detection; PPtx; Snake Game x86; SocioMart; Backend.zip; Docs.zip; Frontend.zip
+Semester Work (Programming): MVC Sem Two Project; Semester Five Work; Semester Four Work; Semester One Work; Semester Three Work; Semester Two Work; source
+
+Use the resume files for verified biography, education, skills, and experience. Use cautious wording where project details are not directly documented.

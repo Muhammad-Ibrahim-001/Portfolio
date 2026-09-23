@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muhammad Ibrahim – Software & Systems Engineer specializing in hypervisor integration, embedded Linux, low-level systems, and ML network security analytics.">
+    <meta name="author" content="Muhammad Ibrahim">
+    <meta name="theme-color" content="#07090e">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Meta Tags -->
+    <meta property="og:title" content="Muhammad Ibrahim – Software & Systems Engineer">
+    <meta property="og:description" content="Systems engineering student with hands-on expertise in low-level x86 bootloaders, embedded Linux hypervisor integration, and ML-driven intrusion detection systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ibrahim-systems.dev/">
+    <meta property="og:image" content="https://ibrahim-systems.dev/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon (Base64 SVG for tech theme) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    
+    <title>Muhammad Ibrahim – Software &amp; Systems Engineer</title>
+    <!-- Google Fonts: Space Grotesk, Inter, Fira Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Canvas (Node Network) -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Background Ambient Lighting Spotlight & Grid Overlay -->
+    <div class="ambient-spotlight" aria-hidden="true"></div>
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <!-- Sticky Header & Navigation -->
+    <header class="site-header" data-section="header">
+        <a href="#hero" class="site-wordmark">Muhammad Ibrahim</a>
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#hero" data-nav="hero">Home</a></li>
+                <li><a href="#about" data-nav="about">About</a></li>
+                <li><a href="#skills" data-nav="skills">Skills</a></li>
+                <li><a href="#projects" data-nav="projects">Projects</a></li>
+                <li><a href="#education" data-nav="education">Education</a></li>
+                <li><a href="#contact" data-nav="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero" data-section="hero" data-reveal>
+            <div class="hero-content">
+                <div class="status-badge">
+                    <span class="status-dot"></span> OPERATIONAL // SIEMENS INTERN &amp; FAST NUCES
+                </div>
+                <h1 class="hero-title" data-scramble="Muhammad Ibrahim">Muhammad Ibrahim</h1>
+                <p class="hero-subtitle">Software &amp; Systems Engineer</p>
+                <p class="hero-description">Systems engineering student with hands-on expertise in low-level x86 bootloaders, embedded Linux hypervisor integration, Intel AMT out-of-band management, and ML-driven intrusion detection systems.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="cta-button cta-primary" data-action="projects">View Projects</a>
+                    <a href="Muhammad_Ibrahim_CV.pdf" download class="cta-button cta-secondary" data-action="cv">Download CV</a>
+                    <a href="#contact" class="cta-button cta-ghost" data-action="contact">Contact Endpoint</a>
+                </div>
+            </div>
+
+            <!-- Interactive Terminal Workspace Component -->
+            <div class="hero-terminal" data-terminal="workspace">
+                <div class="terminal-bar">
+                    <div class="window-dots">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                    </div>
+                    <div class="terminal-tabs">
+                        <button class="tab-btn active" data-tab="profile">profile.sh</button>
+                        <button class="tab-btn" data-tab="systemctl">systemctl.log</button>
+                        <button class="tab-btn" data-tab="stack">stack.json</button>
+                    </div>
+                </div>
+                
+                <!-- Tab Panel 1: Profile -->
+                <div class="terminal-body tab-panel active" id="tab-profile">
+                    <p><span class="prompt">$</span> whoami</p>
+                    <p class="output-highlight">Muhammad Ibrahim — Systems &amp; Software Engineering</p>
+                    <p><span class="prompt">$</span> status --summary</p>
+                    <div class="terminal-grid">
+                        <p><span class="label">• Role:</span> Systems Engineering Intern @ Siemens</p>
+                        <p><span class="label">• Degree:</span> B.Sc. Data Science @ FAST NUCES Lahore</p>
+                        <p><span class="label">• Honors:</span> 3-Time Dean's List Recipient (SGPA &gt; 3.5)</p>
+                        <p><span class="label">• Focus:</span> Embedded Linux, Hypervisors, C/C++, NASM, ML Security</p>
+                    </div>
+                    <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+                </div>
+
+                <!-- Tab Panel 2: Systemctl -->
+                <div class="terminal-body tab-panel" id="tab-systemctl">
+                    <p><span class="prompt">$</span> systemctl status siemens-hypervisor.service</p>
+                    <p class="output-green">● siemens-hypervisor.service - Industrial PC Hypervisor Integration</p>
+                    <p>   Loaded: loaded (/etc/systemd/system/siemens-hypervisor.service)</p>
+                    <p>   Active: <span class="output-green">active (running)</span> since Siemens Internship 2026</p>
+                    <p>   Tasks: Hardware-in-Loop (HIL) USB OTG bridge, Intel AMT Out-of-Band management, 3-tier WebSocket remote control, 20% trace analytics boost.</p>
+                    <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+                </div>
+
+                <!-- Tab Panel 3: Stack -->
+                <div class="terminal-body tab-panel" id="tab-stack">
+                    <p><span class="prompt">$</span> cat stack.json</p>
+                    <pre class="code-block"><code>{
+  "low_level": ["C", "C++", "x86 Assembly (NASM)", "GDT/IDT", "QEMU"],
+  "systems": ["Embedded Linux", "Hypervisor Tech", "HIL", "Intel AMT", "WebSockets"],
+  "machine_learning": ["Scikit-learn", "XGBoost", "Pandas", "UNSW-NB15 Pipeline"],
+  "web_backend": ["Node.js", "REST APIs", "JavaScript", "SQL"]
+}</code></pre>
+                    <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" data-section="about" data-reveal>
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <span class="stat-label">STATUS</span>
+                        <span class="stat-value output-green">Active</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">LOCATION</span>
+                        <span class="stat-value">Lahore, PK</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">CLASS</span>
+                        <span class="stat-value">Systems Eng.</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">CLEARANCE</span>
+                        <span class="stat-value output-highlight">Level 4</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am a fourth-semester B.Sc. Data Science student at FAST NUCES Lahore (expected graduation August 2028, CGPA 3.37/4.00) and a three-time Dean's List recipient (Fall 2024, Fall 2025, Spring 2026). My technical foundation combines low-level systems programming in C, C++, and x86 Assembly (NASM) with Linux administration, full-stack REST API development in Node.js, and machine-learning security analytics.</p>
+                    <p>During my Systems Engineering Internship at Siemens, I focused on integrating hypervisor technology into Siemens Industrial PCs (IPCs) on embedded Linux systems. I built a Hardware-in-Loop (HIL) system configuring Raspberry Pi as a USB OTG device, established out-of-band IPC control via Intel Active Management Technology (AMT) with wsmancli in WSL, and created a 3-tier WebSocket remote control bridge. Additionally, I developed a browser extension for remote IPC management and built a hypervisor trace analytics pipeline that improved trace collection efficiency by 20% and was adopted into daily engineering workflows across the Siemens team.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills" data-section="skills" data-reveal>
+            <h2>Systems Focus &amp; Skills</h2>
+            <ul class="skill-list">
+                <li>
+                    <h3>Languages</h3>
+                    <p>C, C++, Python, JavaScript, x86 Assembly (NASM), Scala, Bash</p>
+                </li>
+                <li>
+                    <h3>Systems &amp; Networking</h3>
+                    <p>Hypervisor technology, Virtualization, HIL, Intel AMT, USB OTG, Embedded Linux, Linux administration, Raspberry Pi, Bootloader design, QEMU, BIOS internals, GDT, IDT, WebSockets, TCP/IP, Out-of-Band Management, WSL</p>
+                </li>
+                <li>
+                    <h3>Software &amp; Backend</h3>
+                    <p>OOP, Data Structures &amp; Algorithms, SDLC, Agile, REST API design, Node.js, SQL, Database systems, Version control, Code review, Debugging</p>
+                </li>
+                <li>
+                    <h3>Machine Learning &amp; Tools</h3>
+                    <p>Scikit-learn, XGBoost, Pandas, NumPy, Plotly, Feature engineering, EDA, Model evaluation, Jupyter, VS Code</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Projects Section with Interactive Category Filters -->
+        <section id="projects" class="projects-section" data-section="projects" data-reveal>
+            <h2>Selected Projects</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">[ALL PROJECTS]</button>
+                <button class="filter-btn" data-filter="systems">[SYSTEMS &amp; ASM]</button>
+                <button class="filter-btn" data-filter="ml">[ML &amp; SECURITY]</button>
+                <button class="filter-btn" data-filter="web">[FULL-STACK &amp; CPP]</button>
+            </div>
+
+            <div class="projects">
+                <article class="project" data-project="bootloader" data-category="systems">
+                    <h3>x86 Bare-Metal Bootloader &amp; Kernel Bootstrap</h3>
+                    <div class="tech-tags">
+                        <span>x86 Assembly (NASM)</span>
+                        <span>C</span>
+                        <span>QEMU</span>
+                        <span>Protected Mode</span>
+                        <span>BIOS Internals</span>
+                        <span>GDT / IDT</span>
+                    </div>
+                    <p>Implemented a two-stage bootloader from scratch in x86 NASM assembly with zero OS dependencies. Stage 1 (MBR) initializes the stack and loads Stage 2 from disk via BIOS INT 13h; Stage 2 configures the Global Descriptor Table (GDT), manipulates the CR0 protection bit, and transitions the CPU from 16-bit real mode to 32-bit protected mode. Bootstrapped a minimal C kernel with stack setup, BSS zeroing, execution handoff to <code>kernel_main()</code>, VGA text-mode output, E820 memory map parsing via BIOS INT 15h, and Interrupt Descriptor Table (IDT) initialization.</p>
+                </article>
+
+                <article class="project" data-project="ids" data-category="ml">
+                    <h3>Network Intrusion Detection System</h3>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>XGBoost</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>EDA &amp; Feature Eng</span>
+                    </div>
+                    <p>Developed an end-to-end machine learning pipeline on the UNSW-NB15 dataset (257,000 records, 45 features) for binary and multi-class network intrusion detection. Engineered 64 features via label encoding and one-hot encoding; trained Random Forest (87.29% accuracy) and XGBoost (87.33% accuracy, 0.99 attack recall) classifiers across binary and multi-class scenarios. Extended pipeline to multi-class classification across 9 attack categories including DoS, Exploits, and Backdoors, achieving 82.72% accuracy with detailed precision, recall, and F1-score evaluation reports.</p>
+                </article>
+
+                <article class="project" data-project="social-sim" data-category="web">
+                    <h3>Facebook Social Network Simulation</h3>
+                    <div class="tech-tags">
+                        <span>C++</span>
+                        <span>OOP</span>
+                        <span>Polymorphism</span>
+                        <span>Data Structures</span>
+                        <span>File I/O</span>
+                        <span>SDLC</span>
+                    </div>
+                    <p>Designed and implemented a social media platform simulation in C++ using 9 interlinked classes demonstrating inheritance, polymorphism, encapsulation, and dynamic memory management with full Software Development Life Cycle (SDLC) applied. Implemented user timelines, home feed aggregation, post likes, comment system, reverse chronological sorting, and an "on-this-day" memories feature with multi-file structured data loading and parsing.</p>
+                </article>
+
+                <article class="project" data-project="socio-serve" data-category="web">
+                    <h3>SocioServe – Community Marketplace Application</h3>
+                    <div class="tech-tags">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>REST API</span>
+                        <span>Backend Architecture</span>
+                        <span>Full Stack Web</span>
+                    </div>
+                    <p>Built a full-stack hyperlocal community marketplace application enabling residents to discover and access nearby food vendors, grocery stores, barber shops, and local service providers within their residential society. Implemented REST API backend services for listing management, location-based search, and user interaction features using Node.js and JavaScript following REST API design best practices.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Education & Timeline Section -->
+        <section id="education" class="education" data-section="education" data-reveal>
+            <h2>Education &amp; Experience Timeline</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <span class="timeline-date">Aug 2024 – Aug 2028 (Expected)</span>
+                    <h3>Bachelor of Science in Data Science</h3>
+                    <p class="timeline-org">FAST NUCES – National University of Computer and Emerging Sciences, Lahore, Pakistan</p>
+                    <ul>
+                        <li><strong>CGPA:</strong> 3.37 / 4.00 (4th Semester Completed)</li>
+                        <li><strong>Honors:</strong> 3x Dean's List Recipient (Fall 2024: SGPA 3.65, Fall 2025: SGPA 3.55, Spring 2026: SGPA 3.63)</li>
+                        <li><strong>Relevant Coursework:</strong> Data Structures &amp; Algorithms, Operating Systems, Computer Organization &amp; Assembly Language, Database Systems, Object-Oriented Programming (OOP), Software Engineering, Probability &amp; Statistics, Linear Algebra, Discrete Structures.</li>
+                    </ul>
+                </article>
+
+                <article class="timeline-item">
+                    <span class="timeline-date">Aug 2026 – Oct 2026</span>
+                    <h3>Hypervisor &amp; Systems Engineering Intern</h3>
+                    <p class="timeline-org">Siemens | Remote, Pakistan</p>
+                    <ul>
+                        <li>Integrated hypervisor technology into Siemens Industrial PCs (IPCs) on Linux-based embedded systems using Raspberry Pi for industrial IoT environments.</li>
+                        <li>Built Hardware-in-Loop (HIL) system configuring Raspberry Pi as USB OTG device connected to IPC and implemented full out-of-band IPC control using Intel AMT via wsmancli in WSL.</li>
+                        <li>Developed a WebSocket-based 3-tier remote control bridge, browser extension for IPC/hypervisor remote management, and a trace analytics pipeline that improved performance by 20%.</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="awards">
+                <h3>Awards &amp; Recognition</h3>
+                <ul class="awards-grid">
+                    <li>
+                        <span class="award-badge">⭐ HONORS</span>
+                        <strong>Three-Time Dean's List Award:</strong> FAST NUCES Lahore – Awarded Fall 2024, Fall 2025, and Spring 2026 for maintaining SGPA above 3.50/4.00.
+                    </li>
+                    <li>
+                        <span class="award-badge">⚡ ALGORITHMIC</span>
+                        <strong>SOFTEC Programming Competition:</strong> Competed as part of a 3-member team solving algorithmic challenges at one of Pakistan's largest annual university programming competitions.
+                    </li>
+                    <li>
+                        <span class="award-badge">💻 COMPETITIVE</span>
+                        <strong>ACM Programming Competition:</strong> Participated in ACM-style competitive programming, tackling complex data structures and algorithms under strict time constraints.
+                    </li>
+                    <li>
+                        <span class="award-badge">🏆 CHAMPION</span>
+                        <strong>Punjab College Chess Competition:</strong> First Place Champion.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" data-section="contact" data-reveal>
+            <h2>Contact &amp; Endpoints</h2>
+            <div class="contact-details">
+                <p><strong>Phone:</strong> <a href="tel:+923164412588">+92-316-4412588</a></p>
+                <p><strong>Email:</strong> <a href="mailto:muhammadibrahim00187@gmail.com">muhammadibrahim00187@gmail.com</a></p>
+                <p><strong>Location:</strong> Lahore, Pakistan</p>
+                <div class="contact-links">
+                    <a href="https://github.com/Muhammad-Ibrahim-001" target="_blank" rel="noopener" data-link="github">GitHub</a>
+                    <a href="https://www.linkedin.com/in/muhammad-ibrahim-1b0a84240/" target="_blank" rel="noopener" data-link="linkedin">LinkedIn</a>
+                    <a href="Muhammad_Ibrahim_CV.pdf" download data-link="resume">Download Resume (PDF)</a>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <div class="terminal-bar">
+                    <span class="terminal-title">contact@endpoint:~ (dispatch)</span>
+                </div>
+                <form id="contact-form" class="technical-form" action="https://formspree.io/f/mvkgrdba" method="POST">
+                    <div class="form-group">
+                        <label for="contact-name"><span class="prompt">$</span> set SENDER_NAME=</label>
+                        <input type="text" id="contact-name" name="name" placeholder="e.g. Alex Mercer" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email"><span class="prompt">$</span> set SENDER_EMAIL=</label>
+                        <input type="email" id="contact-email" name="email" placeholder="e.g. alex@domain.org" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message"><span class="prompt">$</span> set PAYLOAD=</label>
+                        <textarea id="contact-message" name="message" rows="4" placeholder="Enter dispatch message payload..." required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button cta-primary">Transmit Payload</button>
+                    <div id="form-status" class="form-status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" data-section="footer">
+        <p>&copy; <span id="year">2026</span> Muhammad Ibrahim. Systems Engineering Portfolio.</p>
+    </footer>
+
+    <!-- GSAP for Smooth Animations -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
